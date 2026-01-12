@@ -1,0 +1,27 @@
+[
+  {
+    "id": "pol-001",
+    "policy_name": "Shipping Policy",
+    "content": "Frankie’s Bakery ships orders Monday through Thursday to ensure freshness. Delivery times vary based on location and shipping method selected."
+  },
+  {
+    "id": "pol-002",
+    "policy_name": "Return & Refund Policy",
+    "content": "Due to the perishable nature of baked goods, we do not accept returns. If your order arrives damaged or incorrect, contact us within 48 hours for a replacement or refund."
+  },
+  {
+    "id": "pol-003",
+    "policy_name": "Freshness Guarantee",
+    "content": "We guarantee that all baked goods arrive fresh and ready to enjoy. If you’re not satisfied with freshness, we’ll make it right."
+  },
+  {
+    "id": "pol-004",
+    "policy_name": "Allergy Information Policy",
+    "content": "Our products may contain or come into contact with common allergens including nuts, dairy, eggs, wheat, and soy. Please review ingredient lists carefully."
+  },
+  {
+    "id": "pol-005",
+    "policy_name": "Privacy Policy",
+    "content": "We respect your privacy and only collect information necessary to process your orders. Customer data is never sold or shared with third parties."
+  }
+]

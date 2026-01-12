@@ -1,0 +1,52 @@
+[
+  {
+    "id": "faq-001",
+    "question": "How do I place an order?",
+    "answer": "You can place an order directly through our website by selecting your items, choosing a delivery date, and checking out securely."
+  },
+  {
+    "id": "faq-002",
+    "question": "Do you ship nationwide?",
+    "answer": "Yes! Frankie’s Bakery ships to all 50 U.S. states using trusted shipping partners."
+  },
+  {
+    "id": "faq-003",
+    "question": "How long does shipping take?",
+    "answer": "Standard shipping usually takes 3–5 business days. Expedited shipping options are available at checkout."
+  },
+  {
+    "id": "faq-004",
+    "question": "Are your baked goods made fresh?",
+    "answer": "Absolutely. All cookies, breads, and brownies are baked fresh to order and shipped the same day they’re baked whenever possible."
+  },
+  {
+    "id": "faq-005",
+    "question": "How should I store my baked goods?",
+    "answer": "Most items should be stored in an airtight container at room temperature. Specific storage tips are included with each product."
+  },
+  {
+    "id": "faq-006",
+    "question": "Can I freeze your cookies or brownies?",
+    "answer": "Yes! Cookies and brownies freeze very well. We recommend wrapping them tightly to preserve freshness."
+  },
+  {
+    "id": "faq-007",
+    "question": "What ingredients do you use?",
+    "answer": "We use high-quality ingredients like real butter, cage-free eggs, unbleached flour, and premium chocolate."
+  },
+  {
+    "id": "faq-008",
+    "question": "Do you offer gluten-free or nut-free options?",
+    "answer": "We offer select gluten-free items. While we do our best, our kitchen is not nut-free, so cross-contamination is possible."
+  },
+  {
+    "id": "faq-009",
+    "question": "What is your return policy?",
+    "answer": "If there’s an issue with your order, contact us within 48 hours of delivery and we’ll make it right."
+  },
+  {
+    "id": "faq-010",
+    "question": "Can I schedule an order for a future date?",
+    "answer": "Yes! You can select your preferred delivery date during checkout."
+  }
+]

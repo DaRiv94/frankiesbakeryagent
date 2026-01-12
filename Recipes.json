@@ -1,0 +1,184 @@
+[
+  {
+    "id": "rec-001",
+    "recipe_name": "Classic Chocolate Chip Cookies",
+    "description": "Soft and chewy chocolate chip cookies perfect with a glass of milk.",
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp salt",
+      "1 cup (2 sticks) butter, softened",
+      "3/4 cup granulated sugar",
+      "3/4 cup packed brown sugar",
+      "1 tsp vanilla extract",
+      "2 large eggs",
+      "2 cups semi-sweet chocolate chips"
+    ],
+    "instructions": "Preheat oven to 375°F. Combine flour, baking soda, and salt in a bowl. In a separate bowl, beat butter and sugars until creamy, then add vanilla and eggs. Gradually mix in dry ingredients. Stir in chocolate chips. Drop by rounded tablespoons onto ungreased sheets and bake 9–11 minutes until golden. Cool on racks. Serve warm or at room temperature.",
+    "storage_tips": "Store in airtight container at room temp for up to 5 days.",
+    "source": "Based on Nestlé Toll House classic recipe :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "id": "rec-002",
+    "recipe_name": "Brookies (Cookie + Brownie Bars)",
+    "description": "A fun hybrid treat that combines cookies and brownies into one bar.",
+    "ingredients": [
+      "For cookie layer: 3/4 cup butter, softened",
+      "3/4 cup brown sugar",
+      "1/4 cup granulated sugar",
+      "1 egg",
+      "2 tsp vanilla extract",
+      "2 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "1 1/2 cups chocolate chips",
+      "For brownie layer: 1/2 cup butter",
+      "1/4 cup canola oil",
+      "1 cup sugar",
+      "2 eggs",
+      "1 tsp vanilla",
+      "3/4 cup cocoa powder",
+      "3/4 cup flour",
+      "1/2 tsp baking powder",
+      "1/2 tsp salt"
+    ],
+    "instructions": "Preheat oven to 350°F. Prepare cookie dough by creaming butter and sugars, then add egg and vanilla. Mix in flour, baking soda, salt, and chocolate chips. Press into bottom of a greased pan. For the brownie layer, combine butter, oil, sugar, eggs, and vanilla. Stir in cocoa, flour, baking powder, and salt until smooth. Spread brownie batter over cookie layer and bake 30–35 minutes until set. Cool before cutting.",
+    "storage_tips": "Keep in airtight container for up to 4 days or freeze portions.",
+    "source": "Adapted from multiple brookie recipes online :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "id": "rec-003",
+    "recipe_name": "Brownie Skillet (Nutella Style)",
+    "description": "Decadent, one-pan brownie with rich Nutella flavor.",
+    "ingredients": [
+      "1 1/4 cups Nutella",
+      "2 tsp vanilla extract",
+      "1/2 tsp instant coffee (optional)",
+      "2 eggs",
+      "1/2 cup all-purpose flour",
+      "1/2 tsp baking soda",
+      "1/2 tsp salt",
+      "1/4 cup mini semi-sweet chocolate chips"
+    ],
+    "instructions": "Preheat oven to 375°F and grease a 10-inch skillet. Mix Nutella, vanilla, coffee, and eggs until smooth. Add flour, baking soda, and salt and stir to combine. Fold in chocolate chips. Spread evenly and bake 15 minutes at 375°F, then reduce to 350°F and bake 15 more minutes. Cool slightly before serving.",
+    "storage_tips": "Cover and store at room temp for up to 2 days, or refrigerate.",
+    "source": "Nutella Brownie Skillet recipe :contentReference[oaicite:2]{index=2}"
+  },
+  {
+    "id": "rec-004",
+    "recipe_name": "Small Batch Triple Cookie Brownies",
+    "description": "Rich loaf of brownies with cookie dough and Oreo layers.",
+    "ingredients": [
+      "For cookie dough: 6 tbsp all-purpose flour, 1 tbsp brown sugar, 1 tbsp granulated sugar, 1 egg yolk, 1/2 tsp vanilla, 1/4 tsp baking soda, pinch salt",
+      "Oreo cookies as desired",
+      "For brownie batter: 1/2 cup sugar, 1/4 cup flour, 3 tbsp cocoa powder, 1/2 tsp salt, 4 tbsp butter, 2 egg yolks, 2 tsp vanilla"
+    ],
+    "instructions": "Preheat oven to 350°F. Prepare loaf pan with parchment. Make cookie dough by mixing dry ingredients with butter, sugar, egg yolk, and vanilla. Press a thin layer into pan. Add Oreo cookies. Make brownie batter and pour over cookie layer. Bake 30–35 minutes until set. Cool before slicing.",
+    "storage_tips": "Keep tightly wrapped in fridge for up to 5 days.",
+    "source": "Adapted from a homemade triple cookie brownies recipe :contentReference[oaicite:3]{index=3}"
+  },
+  {
+    "id": "rec-005",
+    "recipe_name": "Banana Bread",
+    "description": "Moist banana bread made with ripe bananas and warm vanilla.",
+    "ingredients": [
+      "2–3 ripe bananas, mashed",
+      "1/3 cup melted butter",
+      "3/4 cup sugar",
+      "1 egg, beaten",
+      "1 tsp vanilla extract",
+      "1 tsp baking soda",
+      "Pinch of salt",
+      "1 1/2 cups all-purpose flour"
+    ],
+    "instructions": "Preheat oven to 350°F. In a bowl, mix mashed bananas with butter. Stir in sugar, egg, and vanilla. Sprinkle baking soda and salt over mixture, then stir in flour. Pour into greased loaf pan. Bake 60–65 minutes until a toothpick comes out clean. Cool and slice.",
+    "storage_tips": "Store in airtight wrap at room temperature for 2–3 days.",
+    "source": "Common banana bread technique (general knowledge, similar to typical online recipes) "
+  },
+  {
+    "id": "rec-006",
+    "recipe_name": "Honey Whole Wheat Bread",
+    "description": "Soft whole wheat loaf with a touch of honey sweetness.",
+    "ingredients": [
+      "3 cups whole wheat flour",
+      "1 tbsp active dry yeast",
+      "1 1/4 cups warm water",
+      "2 tbsp honey",
+      "1 tsp salt",
+      "2 tbsp olive oil"
+    ],
+    "instructions": "Dissolve yeast in warm water with honey and let sit 5–10 minutes until foamy. Stir in flour, salt, and oil until a dough forms. Knead on floured surface 8–10 minutes. Place in oiled bowl, cover and let rise 1 hour. Punch down and shape into loaf. Place in loaf pan and let rise 30 more minutes. Bake at 375°F for 30–35 minutes until golden.",
+    "storage_tips": "Store at room temperature for 3–4 days or freeze slices.",
+    "source": "Standard whole wheat bread process (general baking guidance) "
+  },
+  {
+    "id": "rec-007",
+    "recipe_name": "Oatmeal Raisin Cookies",
+    "description": "Classic chewy oatmeal cookies with plump raisins.",
+    "ingredients": [
+      "1 cup butter, softened",
+      "1 cup brown sugar",
+      "1/2 cup white sugar",
+      "2 eggs",
+      "1 tsp vanilla",
+      "1 1/2 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1 tsp cinnamon",
+      "1/2 tsp salt",
+      "3 cups oats",
+      "1 cup raisins"
+    ],
+    "instructions": "Preheat oven 350°F. Cream butter and sugars, add eggs and vanilla. Stir in flour, baking soda, cinnamon, and salt. Blend in oats and raisins. Drop by spoonfuls onto baking sheet and bake 8–10 minutes until edges are lightly browned. Cool before serving.",
+    "storage_tips": "Keep in airtight container for up to 5 days.",
+    "source": "Typical oatmeal cookie format (common recipe structure) "
+  },
+  {
+    "id": "rec-008",
+    "recipe_name": "Sourdough Bread",
+    "description": "Artisan-style sourdough with chewy interior and crisp crust.",
+    "ingredients": [
+      "500g bread flour",
+      "375g water, room temperature",
+      "100g active sourdough starter",
+      "10g salt"
+    ],
+    "instructions": "Mix starter, water, and flour until shaggy. Rest 30 minutes. Add salt and fold dough. Bulk ferment 3–4 hours with stretch & fold every 30 minutes. Shape dough and proof 2–3 hours. Preheat Dutch oven to 450°F. Score loaf and bake covered 20 minutes, then uncovered 20 minutes until golden.",
+    "storage_tips": "Wrap cooled bread in linen; best within 2 days.",
+    "source": "Sourdough bread method from beginner guides :contentReference[oaicite:7]{index=7}"
+  },
+  {
+    "id": "rec-009",
+    "recipe_name": "Peanut Butter Cookies",
+    "description": "Classic peanut butter cookies with a crisscross top.",
+    "ingredients": [
+      "1/2 cup butter, softened",
+      "1/2 cup peanut butter",
+      "1/2 cup white sugar",
+      "1/2 cup brown sugar",
+      "1 egg",
+      "1 1/4 cups flour",
+      "3/4 tsp baking soda",
+      "1/2 tsp salt"
+    ],
+    "instructions": "Preheat oven to 350°F. Cream butter, peanut butter, and sugars. Add egg and mix. Stir in dry ingredients until combined. Roll dough into balls, flatten with fork in crisscross pattern. Bake 8–10 minutes until edges are set. Cool before serving.",
+    "storage_tips": "Keep airtight up to 5 days or freeze.",
+    "source": "Standard peanut butter cookie recipe format (general) "
+  },
+  {
+    "id": "rec-010",
+    "recipe_name": "Double Fudge Brownies",
+    "description": "Rich, dense brownies with deep chocolate flavor.",
+    "ingredients": [
+      "1/2 cup cocoa powder",
+      "1/2 cup flour",
+      "1 cup sugar",
+      "1/2 cup butter, melted",
+      "2 eggs",
+      "1 tsp vanilla",
+      "1/2 tsp salt"
+    ],
+    "instructions": "Preheat oven to 350°F. Stir together sugar, cocoa, flour, and salt. Add melted butter, eggs, and vanilla; mix until smooth. Pour into greased pan and bake 25–30 minutes until set but moist in center. Cool before slicing.",
+    "storage_tips": "Store airtight at room temp up to 4 days.",
+    "source": "Typical homemade brownie structure (general info) "
+  }
+]
