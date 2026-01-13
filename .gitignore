@@ -1,3 +1,6 @@
+#Ignore reference to MD. 
+reference.md
+
 # Byte-compiled / cache files
 __pycache__/
 *.py[cod]
