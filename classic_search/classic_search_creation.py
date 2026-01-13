@@ -47,7 +47,7 @@ AZURE_OPENAI_KEY=os.getenv("AZURE_OPENAI_KEY")
 from azure.core.credentials import AzureKeyCredential
 credential = AzureKeyCredential(AZURE_SEARCH_KEY)
 
-prefix = "frankiesbakery01"
+prefix = "frankiesbakery02"
 index_name = f"{prefix}-classic-search-idx"
 data_source_name = f"{prefix}-classic-search-ds"
 skillset_name = f"{prefix}-classic-search-ss"
@@ -76,11 +76,10 @@ fields = [
      SearchField(name="parent_id", type=SearchFieldDataType.String, searchable=False, filterable=True, facetable=False),  
      SearchField(name="chunk", type=SearchFieldDataType.String, searchable=True, filterable=False, facetable=False),  
      SearchField(name="title", type=SearchFieldDataType.String, searchable=True, filterable=False, facetable=False),  
-     SearchField(name="text_vector", type=SearchFieldDataType.Collection(SearchFieldDataType.Single), searchable=True, retrievable=False, vector_search_dimensions=3072, vector_search_profile_name=my_vector_search_profile_name)
+     SearchField(name="text_vector", type=SearchFieldDataType.Collection(SearchFieldDataType.Single), searchable=True, hidden=False, vector_search_dimensions=3072, vector_search_profile_name=my_vector_search_profile_name)
      ]  
 
  # Configure the vector search configuration  
-from azure.search.documents.indexes.models import HnswParameters
 vector_search = VectorSearch(  
      algorithms=[  
          HnswAlgorithmConfiguration(
@@ -238,4 +237,4 @@ indexer = SearchIndexer(
 indexer_client = SearchIndexerClient(endpoint=AZURE_SEARCH_SERVICE, credential=credential)  
 indexer_result = indexer_client.create_or_update_indexer(indexer)  
 
-print(f' {indexer_name} is created and running. Give the indexer a few minutes before running a query.')  
+print(f'{indexer_name} is created and running. Give the indexer a few minutes before running a query.')  
