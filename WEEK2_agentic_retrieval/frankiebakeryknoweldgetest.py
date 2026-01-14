@@ -19,6 +19,8 @@ knowledge_source_name = "frankies-bakery-knowledge-test-source"
 knowledge_base_name = "frankies-bakery-knowledge-test-base"
 search_api_version = "2025-11-01-preview"
 
+# Requires Azure CLI login for DefaultAzureCredential to work in local dev environment
+
 credential = DefaultAzureCredential()
 token_provider = get_bearer_token_provider(credential, "https://search.azure.com/.default")
 

@@ -1,4 +1,7 @@
 
+#Look at these
+#https://github.com/microsoft/agent-framework/blob/main/python/samples/getting_started/agents/azure_ai/README.md
+
 import asyncio
 from agent_framework import ChatAgent
 from agent_framework.azure import AzureAIAgentClient
