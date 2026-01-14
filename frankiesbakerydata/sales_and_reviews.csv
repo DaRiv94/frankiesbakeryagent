@@ -1,0 +1,43 @@
+Product_ID,Product_Name,Units_Sold,Unit_Price,Total_Revenue,Customer_Name,Customer_Location,Customer_Email,Rating,Review,Review_Date
+rec-001,Classic Chocolate Chip Cookies,1250,12.99,16237.50,Sarah Johnson,Seattle WA,sarah.j@email.com,5,Absolutely delicious! Best cookies I've ever had.,2025-11-15
+rec-001,Classic Chocolate Chip Cookies,1250,12.99,16237.50,Michael Chen,Portland OR,mchen@email.com,5,Perfect texture - crispy outside and chewy inside!,2025-11-20
+rec-001,Classic Chocolate Chip Cookies,1250,12.99,16237.50,Emily Rodriguez,Austin TX,emily.r@email.com,4,Really good but arrived slightly crumbly.,2025-11-22
+rec-001,Classic Chocolate Chip Cookies,1250,12.99,16237.50,David Thompson,Boston MA,dthompson@email.com,5,Ordered for a party and everyone loved them!,2025-12-01
+rec-001,Classic Chocolate Chip Cookies,1250,12.99,16237.50,Jessica Wu,San Francisco CA,jwu@email.com,5,Fresh and tasty. Will definitely order again.,2025-12-05
+rec-001,Classic Chocolate Chip Cookies,1250,12.99,16237.50,Robert Miller,Denver CO,rmiller@email.com,5,Just like homemade. Amazing quality!,2025-12-10
+rec-001,Classic Chocolate Chip Cookies,1250,12.99,16237.50,Amanda Garcia,Miami FL,agarcia@email.com,4,Delicious but a bit pricey for the quantity.,2025-12-15
+rec-001,Classic Chocolate Chip Cookies,1250,12.99,16237.50,Christopher Lee,Chicago IL,clee@email.com,5,My kids devoured these in minutes!,2025-12-20
+rec-010,Double Fudge Brownies,980,14.99,14690.20,Jennifer Martinez,Phoenix AZ,jmartinez@email.com,5,Super fudgy and rich. Chocolate heaven!,2025-11-18
+rec-010,Double Fudge Brownies,980,14.99,14690.20,Daniel White,Nashville TN,dwhite@email.com,5,Best brownies I've tasted. Dense and decadent.,2025-11-25
+rec-010,Double Fudge Brownies,980,14.99,14690.20,Lisa Anderson,Dallas TX,landerson@email.com,4,Very chocolatey. Could use more variety in texture.,2025-12-02
+rec-010,Double Fudge Brownies,980,14.99,14690.20,Kevin Brown,Atlanta GA,kbrown@email.com,5,Perfect for my chocolate cravings!,2025-12-08
+rec-010,Double Fudge Brownies,980,14.99,14690.20,Rachel Green,New York NY,rgreen@email.com,5,Moist and delicious. Great gift option too.,2025-12-12
+rec-009,Peanut Butter Cookies,875,11.99,10491.25,Thomas Harris,Philadelphia PA,tharris@email.com,5,Peanut butter perfection! Love the crisscross design.,2025-11-17
+rec-009,Peanut Butter Cookies,875,11.99,10491.25,Maria Lopez,San Diego CA,mlopez@email.com,4,Good flavor but a bit dry for my taste.,2025-11-28
+rec-009,Peanut Butter Cookies,875,11.99,10491.25,James Wilson,Houston TX,jwilson@email.com,5,Classic taste. Takes me back to childhood.,2025-12-03
+rec-009,Peanut Butter Cookies,875,11.99,10491.25,Patricia Taylor,Charlotte NC,ptaylor@email.com,5,My husband's favorite. We order monthly now.,2025-12-14
+rec-002,Brookies,820,15.99,13111.80,Brandon Moore,Minneapolis MN,bmoore@email.com,5,Best of both worlds! Cookie and brownie in one.,2025-11-21
+rec-002,Brookies,820,15.99,13111.80,Nicole Jackson,Indianapolis IN,njackson@email.com,5,Innovative and tasty. Kids went crazy for these.,2025-11-30
+rec-002,Brookies,820,15.99,13111.80,Steven Davis,Columbus OH,sdavis@email.com,4,Interesting concept. Brownie layer was amazing.,2025-12-06
+rec-002,Brookies,820,15.99,13111.80,Michelle Adams,Detroit MI,madams@email.com,5,Unique treat. Love getting something different!,2025-12-16
+rec-007,Oatmeal Raisin Cookies,765,11.99,9172.35,Andrew Scott,Kansas City MO,ascott@email.com,4,Good oatmeal cookies but prefer chocolate chip.,2025-11-19
+rec-007,Oatmeal Raisin Cookies,765,11.99,9172.35,Christina Hall,St Louis MO,chall@email.com,5,Hearty and wholesome. Perfect with coffee.,2025-11-26
+rec-007,Oatmeal Raisin Cookies,765,11.99,9172.35,Joshua Turner,Milwaukee WI,jturner@email.com,5,Reminds me of grandma's cookies. So good!,2025-12-04
+rec-007,Oatmeal Raisin Cookies,765,11.99,9172.35,Angela Phillips,Pittsburgh PA,aphillips@email.com,4,Nice texture. Would prefer more cinnamon.,2025-12-11
+rec-005,Banana Bread,690,13.99,9653.10,Brian Campbell,Orlando FL,bcampbell@email.com,5,Moist and flavorful. Best banana bread ever!,2025-11-23
+rec-005,Banana Bread,690,13.99,9653.10,Stephanie Parker,Tampa FL,sparker@email.com,5,Perfect breakfast treat. Not too sweet.,2025-12-01
+rec-005,Banana Bread,690,13.99,9653.10,Eric Evans,Raleigh NC,eevans@email.com,4,Very good but could be more banana-forward.,2025-12-09
+rec-005,Banana Bread,690,13.99,9653.10,Rebecca Collins,Richmond VA,rcollins@email.com,5,Delicious and fresh. Great for gifting.,2025-12-17
+rec-003,Brownie Skillet,615,16.99,10449.85,Justin Edwards,Baltimore MD,jedwards@email.com,5,Nutella lover's dream! So rich and indulgent.,2025-11-24
+rec-003,Brownie Skillet,615,16.99,10449.85,Melissa Stewart,Washington DC,mstewart@email.com,5,Served it warm with ice cream. Amazing!,2025-12-02
+rec-003,Brownie Skillet,615,16.99,10449.85,Ryan Morris,Charleston SC,rmorris@email.com,4,Decadent but very rich. Share it!,2025-12-13
+rec-008,Sourdough Bread,580,17.99,10434.20,Laura Rogers,Portland ME,lrogers@email.com,5,Authentic sourdough. Crispy crust and chewy inside.,2025-11-16
+rec-008,Sourdough Bread,580,17.99,10434.20,Timothy Reed,Burlington VT,treed@email.com,5,Best mail-order bread I've tried. Worth it!,2025-11-27
+rec-008,Sourdough Bread,580,17.99,10434.20,Samantha Cook,Providence RI,scook@email.com,4,Good bread but shipping cost adds up.,2025-12-07
+rec-008,Sourdough Bread,580,17.99,10434.20,Gregory Bell,Hartford CT,gbell@email.com,5,Perfect for sandwiches and toast. Real deal.,2025-12-18
+rec-006,Honey Whole Wheat Bread,545,14.99,8169.55,Kimberly Cooper,Albany NY,kcooper@email.com,4,Healthy option. Nice honey flavor.,2025-11-29
+rec-006,Honey Whole Wheat Bread,545,14.99,8169.55,Donald Richardson,Syracuse NY,drichardson@email.com,5,Soft and nutritious. Kids actually eat it!,2025-12-05
+rec-006,Honey Whole Wheat Bread,545,14.99,8169.55,Heather Bailey,Buffalo NY,hbailey@email.com,5,Love the subtle sweetness. Great for daily bread.,2025-12-15
+rec-004,Small Batch Triple Cookie Brownies,490,18.99,9305.10,Nathan Foster,San Antonio TX,nfoster@email.com,5,Layers on layers of goodness. Impressive!,2025-12-01
+rec-004,Small Batch Triple Cookie Brownies,490,18.99,9305.10,Victoria Gray,El Paso TX,vgray@email.com,5,Perfect gift item. Looks and tastes amazing.,2025-12-10
+rec-004,Small Batch Triple Cookie Brownies,490,18.99,9305.10,Jacob Howard,Oklahoma City OK,jhoward@email.com,4,Creative but almost too rich for me.,2025-12-19
