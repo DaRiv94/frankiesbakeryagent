@@ -1,0 +1,164 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Frankie's Bakery API",
+    "version": "1.0.0",
+    "description": "API for Frankie's Bakery products and orders"
+  },
+  "servers": [
+    {
+      "url": "https://func-ais-eastus2-foundry-test-ezcfacfsd5ebevcs.eastus2-01.azurewebsites.net/api"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "apiKeyHeader": {
+        "type": "apiKey",
+        "name": "x-functions-key",
+        "in": "header"
+      }
+    },
+    "schemas": {
+      "Product": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "example": 1
+          },
+          "name": {
+            "type": "string",
+            "example": "Chocolate Chip Cookies"
+          },
+          "price": {
+            "type": "number",
+            "format": "float",
+            "example": 8.99
+          },
+          "category": {
+            "type": "string",
+            "example": "Cookies"
+          }
+        }
+      },
+      "OrderRequest": {
+        "type": "object",
+        "required": [
+          "product_name",
+          "product_quantity"
+        ],
+        "properties": {
+          "product_name": {
+            "type": "string",
+            "example": "Chocolate Chip Cookies"
+          },
+          "product_quantity": {
+            "type": "integer",
+            "example": 3
+          }
+        }
+      },
+      "OrderResponse": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "example": "Order confirmed! You ordered 3 of Chocolate Chip Cookies. Thank you for your business!"
+          },
+          "order_details": {
+            "type": "object",
+            "properties": {
+              "product": {
+                "type": "string",
+                "example": "Chocolate Chip Cookies"
+              },
+              "quantity": {
+                "type": "integer",
+                "example": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "paths": {
+    "/get_products": {
+      "get": {
+        "summary": "Get all Frankie's Bakery products",
+        "operationId": "getProducts",
+        "description": "Retrieves a list of all available bakery products including cookies, bread, muffins, pastries, pies, and cupcakes",
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved product list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "apiKeyHeader": []
+          }
+        ]
+      }
+    },
+    "/place_order": {
+      "post": {
+        "summary": "Place an order for bakery products",
+        "operationId": "placeOrder",
+        "description": "Place an order by specifying the product name and quantity. Returns an order confirmation message",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Order placed successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request - missing required fields",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string",
+                      "example": "Please provide both product_name and product_quantity"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "apiKeyHeader": []
+          }
+        ]
+      }
+    }
+  }
+}
